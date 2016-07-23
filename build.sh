@@ -4,4 +4,5 @@ exec &> githook.log
 npm prune
 npm install
 
-node index.js
+pm stop index
+pm start index.js
